@@ -1,0 +1,39 @@
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.form {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+input,
+select,
+button {
+    padding: 8px;
+}
+
+button {
+    cursor: pointer;
+}
+
+.error {
+    background-color: #ffe5e5;
+    color: #cc0000;
+    border: 1px solid #cc0000;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+#chartContainer {
+    height: 600px;
+}
